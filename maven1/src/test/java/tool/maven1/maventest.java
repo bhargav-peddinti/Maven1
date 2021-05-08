@@ -13,6 +13,8 @@ public class maventest {
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://www.youtube.com/");
 			
 		driver.get("https://www.google.com/");
 		
