@@ -16,6 +16,9 @@ public class maventest {
 			
 		driver.get("https://www.google.com/");
 		
+		driver.manage().window().maximize();
+		
+		
 		System.out.println("middle ");
 		
 		Thread.sleep(3000);
