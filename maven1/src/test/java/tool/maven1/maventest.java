@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class maventest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		System.out.println("open ");
@@ -18,7 +18,11 @@ public class maventest {
 		
 		System.out.println("middle ");
 		
-		driver.findElement(By.id("exec")).click();
+		Thread.sleep(3000);
+		
+		driver.get("https://www.youtube.com/");
+		
+		//driver.findElement(By.id("exec")).click();
 		
 		System.out.println("close ");
 			
